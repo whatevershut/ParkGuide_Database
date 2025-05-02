@@ -1,0 +1,4 @@
+SET SQL_SAFE_UPDATES = 0;
+DELETE from parkguide.Rating WHERE Rating=5;
+SET SQL_SAFE_UPDATES =1;
+
